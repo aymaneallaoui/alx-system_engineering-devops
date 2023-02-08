@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lnah
+ls -lnah | awk '{sub("k", "",$4; print $0}'
