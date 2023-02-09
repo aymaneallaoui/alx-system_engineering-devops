@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alh --directory --ignore=./.. /. ../ /boot
+ls -la . .. /boot
